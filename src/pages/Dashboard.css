@@ -1,0 +1,40 @@
+.dashboard-container {
+  max-width: 600px;
+  margin: 50px auto;
+  font-family: sans-serif;
+  padding: 30px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.assinatura-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.assinatura-form textarea {
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  resize: vertical;
+  font-family: monospace; /* Fonte monoespaçada fica melhor para textos longos/contratos */
+}
+
+.resultado-container {
+  margin-top: 30px;
+  padding: 20px;
+  background-color: #e8f5e9;
+  border: 1px solid #c8e6c9;
+  border-radius: 8px;
+  color: #2e7d32;
+}
+
+.resultado-container a {
+  color: #1565c0;
+  font-weight: bold;
+  word-break: break-all;
+}
