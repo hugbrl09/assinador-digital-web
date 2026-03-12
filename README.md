@@ -9,7 +9,7 @@
 1. Abra um terminal e acesse a pasta do backend `cd assinador-back`.
 2. Instale as dependências: `npm install`
 3. Inicie o servidor: `node server.js`
-> O banco de dados SQLite (`database.sqlite`) será criado automaticamente, e as tabelas serão instanciadas. O servidor rodará na porta 3000.
+> O banco de dados SQLite (`banco.sqlite`) será criado automaticamente, e as tabelas serão instanciadas. O servidor rodará na porta 3000.
 
 ### Passo 2: Frontend (React)
 1. Abra um novo terminal e acesse a pasta do frontend.
